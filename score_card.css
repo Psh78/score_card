@@ -1,0 +1,133 @@
+
+html
+{
+    border: 0;
+    padding: 0;
+    font-size: 100%;
+    width: 100vw;
+    height: 100vh;
+    font-family: Ubuntu;
+    box-sizing: border-box;
+}
+
+body
+{
+      background-color: white;
+}
+
+.container
+{
+    width: 25rem;
+    max-width: 25rem;
+    min-width: 25rem;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    font-size: 0.8rem;
+    margin: 10vh auto;
+    border-radius: 0.1rem;
+    -webkit-box-shadow: -1px 2px 15px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: -1px 2px 15px 0px rgba(0,0,0,0.5);
+    box-shadow: -1px 2px 15px 0px rgba(0,0,0,0.5);
+}
+
+.header_image{
+    width: 25rem;
+    max-width: 25rem;
+    min-width: 25rem;
+}
+
+.quote1
+{
+	font-weight: bold;
+	margin-left: 1rem;
+}
+.score_board{
+    font-size: 1rem;
+    font-weight: bold;
+	margin-left: 1rem;
+}
+
+.score_board span{
+    margin-right: 0.3rem;	
+}
+
+.tag_line
+{
+	margin-left: 1rem;
+}
+
+.selections{
+    display: flex;
+    margin: 0.3rem 0 0.3rem 1rem;
+    font-weight: bold;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.selections select{
+	margin-left: 0.5rem;
+	height: 3vh;
+	width: 2vw;
+	font-size: 0.7rem;
+	border-radius: 0.5rem;
+	opacity: 0.8;
+    cursor: pointer;
+}
+
+.buttons{
+    display: flex;
+    width: 100%;
+	height: 3.5vh;
+    justify-content: spce-around;
+}
+
+.buttons button{
+    border: none;
+    border-radius: 0.1rem;
+    font-size: 0.6rem;
+    color: whitesmoke;
+	flex: 1;
+    cursor: pointer;
+  font-weight: bold;
+}
+
+.player-1{
+    background-color: rgb(55, 219, 57);
+}
+
+.player-2
+{
+    background-color: skyblue;
+}
+
+.reset
+{
+    background-color: red;
+}
+
+.buttons button:hover
+{
+  opacity: 0.75;  
+}
+
+.start
+{
+    border: 1px solid grey;
+    border-radius: 0.4rem;
+    font-size: 0.8rem;
+    color: black;
+    cursor: pointer;
+    margin-left: 1rem;
+}
+
+.winner
+{
+  color: green;
+}
+
+.loser
+{
+  color: red;
+}
+
